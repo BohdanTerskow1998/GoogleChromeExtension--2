@@ -1,0 +1,29 @@
+﻿{
+  "name": "Rainbow",
+  "description": "You can change your page bg-color",
+  "version": "1",
+  "manifest_version": 3,
+  "permissions": 
+  [
+    "scripting"
+  ],
+  "host_permissions":
+  [
+    "<all_urls>"
+  ],
+  "action": 
+  {
+    "default_title": "Rainbow",
+    "default_popup": "popup.html",
+    "default_icon": 
+    {
+      "32": "Rainbow.png"
+    }
+  },
+  "icons":
+  {
+    "16": "Rainbow.png",
+    "48": "Rainbow.png",
+    "128": "Rainbow.png"
+  }
+}
